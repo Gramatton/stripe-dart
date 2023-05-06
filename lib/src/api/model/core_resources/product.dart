@@ -1,12 +1,12 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:stripedart/src/api/model/checkout/package_dimensions.dart';
+import 'package:stripedart/stripedart.dart';
 part 'product.g.dart';
 
 @JsonSerializable(fieldRename: FieldRename.snake, explicitToJson: true)
 class Product {
   String? id;
   String? object;
-  String? defaultPrice;
+  Price? defaultPrice;
   bool? active;
   List<String>? attributes;
   String? caption;
