@@ -1,3 +1,7 @@
+## [1.1.3] - 06-05-2023
+
+- added "default_price" attribute to Product
+
 ## [1.1.2] - 04-02-2022
 
 - change publisher

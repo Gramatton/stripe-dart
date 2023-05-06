@@ -6,6 +6,7 @@ part 'product.g.dart';
 class Product {
   String? id;
   String? object;
+  String? defaultPrice;
   bool? active;
   List<String>? attributes;
   String? caption;
@@ -27,6 +28,7 @@ class Product {
   Product(
       {this.id,
       this.object,
+      this.defaultPrice,
       this.active,
       this.attributes,
       this.caption,
