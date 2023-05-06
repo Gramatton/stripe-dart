@@ -1,3 +1,5 @@
+import 'package:stripedart/src/api/resources/core_resources/payment_links.dart';
+
 import '../../stripe.dart';
 import 'balance.dart';
 import 'balance_transactions.dart';
@@ -29,6 +31,7 @@ class Core {
     payouts = Payouts(_stripe);
     prices = Prices(_stripe);
     products = Products(_stripe);
+    paymentLinks = PaymentLinks(_stripe);
     prices = Prices(_stripe);
     refunds = Refunds(_stripe);
     setupIntents = SetupIntents(_stripe);
@@ -47,6 +50,7 @@ class Core {
   Payouts? payouts;
   Prices? prices;
   Products? products;
+  PaymentLinks? paymentLinks;
   Refunds? refunds;
   SetupIntents? setupIntents;
 }

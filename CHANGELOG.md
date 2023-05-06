@@ -1,3 +1,7 @@
+## [1.1.4] - 07-05-2023
+
+- added "PaymentLinks"
+
 ## [1.1.3] - 06-05-2023
 
 - added "default_price" attribute to Product
